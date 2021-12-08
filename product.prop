@@ -13,3 +13,7 @@ ro.lmk.use_psi=false
 
 # Shutdown
 ro.build.shutdown_timeout=2
+
+# Elixir Maintainer
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.elixir.maintainer=Nanairo
