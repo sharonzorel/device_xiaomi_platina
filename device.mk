@@ -369,6 +369,10 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.device.rc
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    removepackages
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
